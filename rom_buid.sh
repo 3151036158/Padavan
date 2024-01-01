@@ -14,3 +14,6 @@ sudo ./clear_tree
 fakeroot ./build_firmware_modify MI-NANO
 #脚本第一个参数为路由型号，在trunk/configs/templates/中
 #编译好的固件在trunk/images里
+#直接上传到git中
+git add /images/*
+git push
