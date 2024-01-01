@@ -7,4 +7,10 @@ sudo apt install unzip libtool-bin curl cmake gperf gawk flex bison nano xxd \
     cd toolchain-mipsel
     sh dl_toolchain.sh
     cd ../
-    nano trunk/configs/templates/MI-NANO.config
+    #nano trunk/configs/templates/MI-NANO.config
+
+    cd  trunk
+sudo ./clear_tree
+fakeroot ./build_firmware_modify PSG1218
+#脚本第一个参数为路由型号，在trunk/configs/templates/中
+#编译好的固件在trunk/images里
