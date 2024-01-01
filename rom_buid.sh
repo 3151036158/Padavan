@@ -6,5 +6,5 @@ sudo apt install unzip libtool-bin curl cmake gperf gawk flex bison nano xxd \
 
     cd toolchain-mipsel
     sh dl_toolchain.sh
-
+    cd ../
     nano trunk/configs/templates/MI-NANO.config
