@@ -16,4 +16,5 @@ fakeroot ./build_firmware_modify MI-NANO
 #编译好的固件在trunk/images里
 #直接上传到git中
 git add /images/*
+git pull
 git push
